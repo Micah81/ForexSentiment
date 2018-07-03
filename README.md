@@ -1,0 +1,3 @@
+Old PHP program I wrote to remove bias from Forex trading.
+
+Every evening, MetaTrader4 was programmed to take a screenshot of about 30 Forex currency pairs. This set of scripts is composed of HTML, PHP, and MySQL. The code crops the charts to remove the name of the Forex pair. That's what removes the bias. Then the code takes the user through rating all of the charts based on whether the user thinks the price will go up, down, sideways, or if the user is unsure. The drilldown.php files help the user drill down through the last few charts that have the same scores. Eventually, a final chart is chosen. The user is then able to view all of their results and know what trades to open or close.
